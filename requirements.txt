@@ -1,0 +1,8 @@
+groq
+tavily-python
+reportlab
+streamlit
+pandas
+plotly
+tweepy
+requests
