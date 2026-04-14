@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: agent-business
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run dashboard.py --server.port=10000
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
